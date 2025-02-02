@@ -23,7 +23,7 @@ thisdict = {
 }
 del thisdict["model"]
 print(thisdict)
-#4
+#4 error
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",

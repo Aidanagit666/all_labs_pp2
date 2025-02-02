@@ -34,3 +34,9 @@ myfamily = {
 }
 #3
 print(myfamily["child2"]["name"])
+#4
+for x, obj in myfamily.items():
+  print(x)
+
+  for y in obj:
+    print(y + ':', obj[y])
